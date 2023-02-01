@@ -1,0 +1,24 @@
+ALGORITHM three_nb_add
+VAR
+c : CHAR;
+l : INTEGER :=0;
+n : INTEGER :=0;
+nv : INTEGER := 0;
+
+BEGIN
+WHILE (c<>".") DO
+l:= l+1;
+ 
+END_WHILE
+WHILE (c<l) DO
+    IF (c="a" or c="e" or c="i" or c="y" or c="u" or c="o") THEN
+    nv:=nv+1;
+ END_IF
+    IF (c="") THEN
+    n:=n+1;
+ END_IF
+END_WHILE
+   n:=n+1;
+
+
+END
